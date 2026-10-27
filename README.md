@@ -46,7 +46,6 @@ Download the whole model repo from HuggingFace:
 Option A: HuggingFace CLI (run inside the venv)
 
 ```bash
-pip install huggingface_hub==0.36.0   # already pinned in requirements.txt; do NOT use -U
 huggingface-cli download speechbrain/lang-id-voxlingua107-ecapa \
   --local-dir pretrained_models/ecapa-tdnn
 ```
